@@ -1,0 +1,107 @@
+:root {
+  /** --verde: rgba(119, 165, 18, 1); 
+   --verdeoscuro: rgba(64, 89, 12, 1); 
+   --amarillofuerte: rgba(176, 216, 30, 1);
+   --amarilloclaro:  rgba(237, 242, 94, 1); 
+   --blancocrema: rgba(240, 242, 201, 1);**/
+
+    --azul: #0072b5;
+    --blanco: #FFF;
+    --naranja: #ff4f1f; 
+    
+}
+
+*,*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+
+h1{
+    
+    background-color:  rgba(216, 165, 10, 1);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5rem;    
+    text-transform: uppercase;
+    text-shadow: 2px 1px 2px;
+    
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 1rem ;
+    padding: 0;
+    }
+
+li {
+
+   
+    
+    }
+#logoencabezado{
+
+
+    display: flex;
+    width:100rem;
+    height: 50rem;
+    margin: auto 25rem;
+
+}
+
+#logo {
+    display: flex;
+    justify-content: start;
+    width: 200px;
+    margin-left: 10rem;
+    
+
+       
+}
+
+a {
+ 
+    width: 100%vw;
+    text-transform:uppercase;
+    font-size: x-large;
+    color: var(--naranja);
+    background-color: rgba(89, 74, 30, 1);
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+    border: 1px solid rgba(63, 51, 36, 1);
+    margin-bottom: 0.5em;
+    text-align: center;  
+   
+    
+}
+
+ a:hover {
+        background-color: yellow;
+        border: 0.5rem rgb(207, 94, 18) dashed;
+        color: red;
+    }
+
+body {
+    
+    background-color: var(--blanco);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 50px;
+ 
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 6rem;
+}
+
